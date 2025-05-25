@@ -8,10 +8,10 @@ This project demonstrates a multi-service web application architecture using Doc
 
 The application consists of the following services:
 
-* **Frontend:** A user interface built with React, responsible for interacting with the user and consuming the backend API.
-* **Backend API:** A Node.js/Express API handling business logic, data processing, and serving data to the frontend. It also interacts with the database and Redis cache.
-* **Database:** A PostgreSQL database for persistent data storage.
-* **Redis Cache:** An in-memory data store used by the backend API to cache frequently accessed data, improving performance.
+* Frontend: A user interface built with React, responsible for interacting with the user and consuming the backend API.
+* Backend API: A Node.js/Express API handling business logic, data processing, and serving data to the frontend. It also interacts with the database and Redis cache.
+* Database: A PostgreSQL database for persistent data storage.
+* Redis Cache: An in-memory data store used by the backend API to cache frequently accessed data, improving performance.
 
 Docker Compose is used to define and manage these services, their dependencies, networking, and volume management.
 
