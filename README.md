@@ -32,7 +32,7 @@ Docker Compose is used to define and manage these services, their dependencies, 
 1. Clone the repository:
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/NonsoBarn/multi-service-app.git
 cd multi-service-app
 ```
 
